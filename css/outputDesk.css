@@ -653,8 +653,28 @@ video {
   inset: -0.25rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .end-1 {
   inset-inline-end: 0.25rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-1 {
+  top: 0.25rem;
 }
 
 .isolate {
@@ -663,6 +683,18 @@ video {
 
 .isolation-auto {
   isolation: auto;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+.z-3 {
+  z-index: 3;
 }
 
 .float-start {
@@ -707,6 +739,28 @@ video {
 
 .clear-none {
   clear: none;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ml-\[11em\] {
+  margin-left: 11em;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .mt-2 {
@@ -812,6 +866,30 @@ video {
   display: none;
 }
 
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-\[80\%\] {
+  height: 80%;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -822,6 +900,39 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.min-w-0 {
+  min-width: 0px;
+}
+
+.min-w-\[536px\] {
+  min-width: 536px;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
+.max-w-\[536px\] {
+  max-width: 536px;
 }
 
 .flex-shrink {
@@ -862,6 +973,21 @@ video {
 
 .border-separate {
   border-collapse: separate;
+}
+
+.translate-x-\[1\.5em\] {
+  --tw-translate-x: 1.5em;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[6em\] {
+  --tw-translate-x: 6em;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[3px\] {
+  --tw-translate-y: 3px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .\!transform {
@@ -1342,6 +1468,50 @@ video {
   justify-items: stretch;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
+}
+
+.gap-\[\.8em\] {
+  gap: .8em;
+}
+
+.gap-\[1\.1em\] {
+  gap: 1.1em;
+}
+
+.gap-\[1\.2em\] {
+  gap: 1.2em;
+}
+
+.gap-\[1\.4em\] {
+  gap: 1.4em;
+}
+
+.gap-\[4em\] {
+  gap: 4em;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1787,6 +1957,11 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1912,6 +2087,15 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-\[10em\] {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.pr-\[3em\] {
+  padding-right: 3em;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1968,8 +2152,83 @@ video {
   vertical-align: super;
 }
 
+.font-KozGoPr6N400 {
+  font-family: KozGoPr6N400, KozGoPr6N400;
+}
+
+.font-Montserrat300 {
+  font-family: Montserrat300, Montserrat300;
+}
+
+.font-Montserrat700 {
+  font-family: Montserrat700, Montserrat700;
+}
+
+.font-OpenSans300 {
+  font-family: OpenSans300, OpenSans300;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
+}
+
+.text-\[96px\] {
+  font-size: 96px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .uppercase {
@@ -2040,8 +2299,50 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.leading-24 {
+  line-height: 24px;
+}
+
+.leading-28 {
+  line-height: 28px;
+}
+
+.leading-31 {
+  line-height: 31px;
+}
+
+.leading-\[117\.02px\] {
+  line-height: 117.02px;
+}
+
+.leading-\[135\.02px\] {
+  line-height: 135.02px;
+}
+
+.leading-\[16\.25px\] {
+  line-height: 16.25px;
+}
+
+.leading-\[29\.26px\] {
+  line-height: 29.26px;
+}
+
+.leading-\[39\.01px\] {
+  line-height: 39.01px;
+}
+
+.text-White {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -2088,6 +2389,10 @@ video {
 .subpixel-antialiased {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .bg-blend-normal {
@@ -2352,6 +2657,10 @@ video {
   transition-duration: 150ms;
 }
 
+.duration-\[\.8s\] {
+  transition-duration: .8s;
+}
+
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -2415,15 +2724,9 @@ video {
 }
 
 @font-face {
-  font-family: "IRANSansWeb300";
+  font-family: "Montserrat300";
 
-  src: url("../_fonts/IRANSansWeb(FaNum)_UltraLight.eot");
-
-  src: url("../_fonts/IRANSansWeb(FaNum)_UltraLight.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/IRANSansWeb(FaNum)_UltraLight.woff") format("woff"),
-    url("../_fonts/IRANSansWeb(FaNum)_UltraLight.woff2") format("woff2"),
-    url("../_fonts/IRANSansWeb(FaNum)_UltraLight.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Light.ttf") format("truetype");
 
   font-weight: 300;
 
@@ -2433,15 +2736,9 @@ video {
 }
 
 @font-face {
-  font-family: "IRANSansWeb400";
+  font-family: "Montserrat400";
 
-  src: url("../_fonts/IRANSansWeb(FaNum)_Light.eot");
-
-  src: url("../_fonts/IRANSansWeb(FaNum)_Light.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/IRANSansWeb(FaNum)_Light.woff") format("woff"),
-    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
-    url("../_fonts/IRANSansWeb(FaNum)_Light.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
 
   font-weight: 400;
 
@@ -2451,15 +2748,9 @@ video {
 }
 
 @font-face {
-  font-family: "IRANSansWeb500";
+  font-family: "Montserrat500";
 
-  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot");
-
-  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
-    url("../_fonts/IRANSansWeb(FaNum)_Medium.woff2") format("woff2"),
-    url("../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
 
   font-weight: 500;
 
@@ -2469,15 +2760,9 @@ video {
 }
 
 @font-face {
-  font-family: "IRANSansWeb600";
+  font-family: "Montserrat600";
 
-  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot");
-
-  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
-        format("embedded-opentype"),
-      url("../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
-      url("../_fonts/IRANSansWeb(FaNum)_Medium.woff2") format("woff2"),
-      url("../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
 
   font-weight: 600;
 
@@ -2487,15 +2772,9 @@ video {
 }
 
 @font-face {
-  font-family: "IRANSansWeb700";
+  font-family: "Montserrat700";
 
-  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
-
-  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-    url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -2505,15 +2784,9 @@ video {
 }
 
 @font-face {
-  font-family: "IRANSansWeb800";
+  font-family: "Montserrat800";
 
-  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
-
-  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
-        format("embedded-opentype"),
-      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-      url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+  src: url("../fonts/Montserrat-ExtraBold.ttf") format("truetype");
 
   font-weight: 800;
 
@@ -2523,15 +2796,9 @@ video {
 }
 
 @font-face {
-  font-family: "IRANSansWeb900";
+  font-family: "Montserrat900";
 
-  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
-
-  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
-        format("embedded-opentype"),
-      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-      url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-      url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+  src: url("../fonts/Montserrat-Black.ttf") format("truetype");
 
   font-weight: 900;
 
@@ -2541,9 +2808,21 @@ video {
 }
 
 @font-face {
-  font-family: "Inter400";
+  font-family: "OpenSans300";
 
-  src: url("../fonts/inter.ttf")  format("truetype");
+  src: url("../fonts/OpenSans_Condensed-Light.ttf") format("truetype");
+
+  font-weight: 300;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans400";
+
+  src: url("../fonts/OpenSans_Condensed-Medium.ttf") format("truetype");
 
   font-weight: 400;
 
@@ -2553,11 +2832,11 @@ video {
 }
 
 @font-face {
-  font-family: "NotoSans400";
+  font-family: "OpenSans500";
 
-  src: url("../fonts/noto.ttf")  format("truetype");
+  src: url("../fonts/OpenSans_SemiCondensed-Regular.ttf") format("truetype");
 
-  font-weight: 400;
+  font-weight: 500;
 
   font-style: normal;
 
@@ -2565,19 +2844,67 @@ video {
 }
 
 @font-face {
-  font-family: "ABeeZee400";
+  font-family: "OpenSans600";
 
-  src: url("../fonts/ABeeZee-Regular.ttf")  format("truetype");
+  src: url("../fonts/OpenSans_Condensed-SemiBold.ttf") format("truetype");
 
-  font-weight: 400;
+  font-weight: 600;
 
   font-style: normal;
 
   font-display: swap;
 }
 
-.faNum {
-  font-family: "IRANSansWeb300";
+@font-face {
+  font-family: "OpenSans700";
+
+  src: url("../fonts/OpenSans_SemiCondensed-Bold.ttf") format("truetype");
+
+  font-weight: 700;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans800";
+
+  src: url("../fonts/OpenSans_SemiCondensed-ExtraBold.ttf") format("truetype");
+
+  font-weight: 800;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans900";
+
+  src: url("../fonts/OpenSans_SemiCondensed-Bold.ttf") format("truetype");
+
+  font-weight: 900;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KozGoPr6N400";
+
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+
+  /* src: url("../fonts/KozGoPr6NRegular.ttf") format("truetype"), */
+
+  /* url("../fonts/KozGoPr6NRegular.otf") format("otf"); */
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  font-display: swap;
 }
 
 html.lenis,
@@ -2601,13 +2928,68 @@ html.lenis body {
   pointer-events: none;
 }
 
-* {
-  box-sizing: border-box;
-  /* direction: rtl; */
+body {
+  transition: 0.3s ease-out;
+  overflow-x: hidden;
+  direction: ltr;
+  margin: 0;
+  padding: 0;
 }
 
-a {
+body.horizontal{
+  transition: 0.3s ease-out;
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
+  overscroll-behavior: none;
+  direction: ltr;
+  margin: 0;
+  padding: 0;
+  overflow: hidden !important;
+}
+
+.container-Sec{
+  overflow-y: hidden !important;
+}
+
+.Home section:not(#sectionPin) {
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-gap: 2rem;
+  margin: auto;
+  direction: ltr;
+  left: 0;
+}
+
+* {
+  box-sizing: border-box;
+  direction: ltr;
+}
+
+#PinSection {
+  height: 100vh;
+  overflow: hidden;
+  display:flex;
+  right: 0 ;
+  direction: ltr;
+  position: relative;
+}
+
+a{
   text-decoration: none;
+}
+
+ul,li,p,h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+}
+
+.Pin-Wrapp {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 ul,
@@ -2625,39 +3007,52 @@ h6 {
 
 h1 {
   font-size: 24px;
-  font-family: "IRANSansWeb700";
+  font-family: "Montserrat700";
   line-height: 26px;
 }
 
 h2 {
   font-size: 20px;
-  font-family: "IRANSansWeb700";
+  font-family: "Montserrat700";
   line-height: 26px;
 }
 
 h3 {
   font-size: 18px;
-  font-family: "IRANSansWeb500";
+  font-family: "Montserrat500";
   line-height: 25px;
 }
 
 h4,
 h5 {
   font-size: 16px;
-  font-family: "IRANSansWeb400";
+  font-family: "Montserrat400";
   line-height: 24px;
 }
 
 h6 {
   font-size: 14px;
-  font-family: "IRANSansWeb300";
+  font-family: "Montserrat300";
   line-height: 22px;
 }
 
 a {
   font-size: 14px;
-  font-family: "IRANSansWeb500";
+  font-family: "Montserrat400";
   line-height: 24px;
+}
+
+.Projects .IMG,
+.Projects,
+.Projects img{
+  transition: all 500ms ease;
+}
+
+.Home .Section-1 .Text p{
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16.25px;
+  font-family: "OpenSans500";
 }
 
 @media (min-width: 480px) {
@@ -2690,6 +3085,10 @@ a {
   }
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -2712,6 +3111,10 @@ a {
   text-align: center;
 }
 
+.group\/proj:hover .group-hover\/proj\:opacity-\[\.7\] {
+  opacity: .7;
+}
+
 @media (min-width: 480px) {
   .sm\:underline {
     text-decoration-line: underline;
@@ -2723,4 +3126,3 @@ a {
     paint-order: markers;
   }
 }
-

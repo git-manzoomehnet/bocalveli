@@ -1,0 +1,96 @@
+<basis core="dbsource" name="db" source="basiscore" lid="2" mid="1" usedforid="2373083"> 
+    <member name="defcontent" type="view"/> 
+</basis>
+<basis core="dbsource" name="db" source="media" lid="2" sourcemid="1" usedforid="2373083"> 
+    <member name="defGallery" type="list" format="4"/> 
+</basis>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bocaveli</title>
+    <meta name="description" content="bocaveli">
+  <basis core="call" pageindex="[##cms.cms.pageindex##]" file="styles.inc" />
+</head>
+<body class="Home horizontal">
+        <!-- MAIN CONTAINER -->
+        <div class="container-Sec" >
+            <section id="PinSection">
+                <div class="Pin-Wrapp">
+                    <div class="Section-1 px-[10em] sec h-full flex flex-col justify-center items-center">
+                       <div class="Box w-auto translate-x-[1.5em] duration-[.8s] opacity-0 flex flex-col gap-6 max-w-[536px] min-w-[536px]">
+                        <div class="Title w-auto flex justify-start items-start text-left">
+                            <basis core="print" datamembername="db.defcontent">
+                                <layout>
+                                    @child
+                                </layout>
+                                <face filter="TypeID=150">
+                                    <h1 class="font-Montserrat700 text-[32px] leading-[39.01px] text-black">
+                                      @Answer
+                                    </h1>
+                                </face>
+                            </basis>
+                         
+                        </div>
+                        <div class="Text">
+                            <basis core="print" datamembername="db.defcontent">
+                                <layout>
+                                    @child
+                                </layout>
+                                <face filter="TypeID=129">
+                                    <p class="font-OpenSans300 font-light text-[13px] leading-[16.25px]">
+                                        @Answer
+                                    </p>
+                                </face>
+                            </basis>
+                 
+                        </div>
+                        <div class="Logo">
+                            <a href="/"  alt="bocaveli" title="bocaveli" aria-label="bocaveli" rel="noopener" >
+                                <img src="[##cms.cms.cdn##]/images/logo.png" alt="bocaveli" title="bocaveli">
+                            </a>
+                            <basis core="print" datamembername="db.defcontent">
+                                <layout>
+                                    @child
+                                </layout>
+                                <face filter="TypeID=128">
+                                    <span class="det uppercase font-KozGoPr6N400 font-normal text-sm leading-28 text-black">
+                                        @Answer
+                                    </span>
+                                </face>
+                            </basis>
+                      
+                        </div>
+                       </div>
+                    </div>
+                    <div class="Section-2 w-max sec h-full flex flex-col justify-center items-center">
+                      <div class="Projects w-max my-auto h-[80%] flex gap-[4em] pr-[3em]">
+                        <basis core="print" datamembername="db.defGallery">
+                            <layout>
+                                @child
+                            </layout>
+                            <face>
+                                <div class="Project w-auto h-full flex justify-center items-center group/proj hover:cursor-pointer ">
+                                    <div class="IMG w-auto flex h-full translate-x-[6em] opacity-0">
+                                        <img src="[##cms.cms.cdn##]/@largeIMG" alt="@name" title="@name" class="w-auto h-full group-hover/proj:opacity-[.7]
+                                         object-contain">
+                                    </div>
+                                </div>
+                            </face>
+                        </basis>
+                    
+                    
+                      </div>
+                     </div>
+                     <div class="Section-3 w-screen sec h-full flex flex-col justify-center items-center">
+                         <basis core="call" file="footer.inc" pageindex="[##cms.cms.pageindex##]" />
+                     </div>
+                </div>
+            </section>
+        </div>
+        <!-- MAIN CONTAINER --> 
+<basis core="call" file="script.inc" pageindex="[##cms.cms.pageindex##]" />
+<script src="[##cms.cms.cdn##]/js/home.js"></script>
+</body>
+</html>

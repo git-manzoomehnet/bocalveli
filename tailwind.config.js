@@ -56,16 +56,25 @@ module.exports = {
     },
 
     fontFamily: {
-      'IRANSansWeb300': ['IRANSansWeb300', 'IRANSansWeb300'],
-      'IRANSansWeb400': ['IRANSansWeb400', 'IRANSansWeb400'],
-      'IRANSansWeb500': ['IRANSansWeb500', 'IRANSansWeb500'],
-      'IRANSansWeb600': ['IRANSansWeb600', 'IRANSansWeb600'],
-      'IRANSansWeb700': ['IRANSansWeb700', 'IRANSansWeb700'],
-      'IRANSansWeb800': ['IRANSansWeb800', 'IRANSansWeb800'],
-      'IRANSansWeb900': ['IRANSansWeb900', 'IRANSansWeb900'],
-       'Inter400':['Inter400'],
-       'NotoSans400':['NotoSans400'],
-       'ABeeZee400':['ABeeZee400'],
+      'Montserrat300': ['Montserrat300', 'Montserrat300'],
+      'Montserrat400': ['Montserrat400', 'Montserrat400'],
+      'Montserrat500': ['Montserrat500', 'Montserrat500'],
+      'Montserrat600': ['Montserrat600', 'Montserrat600'],
+      'Montserrat700': ['Montserrat700', 'Montserrat700'],
+      'Montserrat800': ['Montserrat800', 'Montserrat800'],
+      'Montserrat900': ['Montserrat900', 'Montserrat900'],
+      'OpenSans300': ['OpenSans300', 'OpenSans300'],
+      'OpenSans400': ['OpenSans400', 'OpenSans400'],
+      'OpenSans500': ['OpenSans500', 'OpenSans500'],
+      'OpenSans600': ['OpenSans600', 'OpenSans600'],
+      'OpenSans700': ['OpenSans700', 'OpenSans700'],
+      'OpenSans800': ['OpenSans800', 'OpenSans800'],
+      'OpenSans900': ['OpenSans900', 'OpenSans900'], 
+      'KozGoPr6N400': ['KozGoPr6N400', 'KozGoPr6N400'], 
+      
+      
+
+    
 
     },
     extend: {
