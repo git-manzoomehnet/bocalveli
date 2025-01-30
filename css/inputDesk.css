@@ -239,9 +239,13 @@ a {
 .Projects .IMG,
 .Projects,
 .Projects img{
-  transition: all 500ms ease;
+  transition: all 1.5s ease;
 }
-
+.Projects .IMG.appear,
+.Section-1 .Box.appear{
+opacity: 1;
+transform: translate(0);
+}
 .Home .Section-1 .Text p{
   font-size: 13px;
   font-weight: 300;

@@ -886,6 +886,10 @@ video {
   height: 100vh;
 }
 
+.h-\[22px\] {
+  height: 22px;
+}
+
 .w-\[50px\] {
   width: 50px;
 }
@@ -919,12 +923,29 @@ video {
   width: 100vw;
 }
 
+.w-90p {
+  width: 90%;
+}
+
+.w-\[22px\] {
+  width: 22px;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
 
 .min-w-\[536px\] {
   min-width: 536px;
+}
+
+.min-w-\[max-content\] {
+  min-width: -moz-max-content;
+  min-width: max-content;
 }
 
 .max-w-\[500px\] {
@@ -1508,8 +1529,16 @@ video {
   gap: 1.4em;
 }
 
+.gap-\[1em\] {
+  gap: 1em;
+}
+
 .gap-\[4em\] {
   gap: 4em;
+}
+
+.gap-\[\.4em\] {
+  gap: .4em;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2096,6 +2125,14 @@ video {
   padding-right: 3em;
 }
 
+.pb-\[2em\] {
+  padding-bottom: 2em;
+}
+
+.pt-\[2em\] {
+  padding-top: 2em;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2215,6 +2252,14 @@ video {
   line-height: 1rem;
 }
 
+.text-\[11px\] {
+  font-size: 11px;
+}
+
+.text-\[38px\] {
+  font-size: 38px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2329,6 +2374,14 @@ video {
 
 .leading-\[39\.01px\] {
   line-height: 39.01px;
+}
+
+.leading-\[13\.41px\] {
+  line-height: 13.41px;
+}
+
+.leading-\[46\.32px\] {
+  line-height: 46.32px;
 }
 
 .text-White {
@@ -3045,7 +3098,13 @@ a {
 .Projects .IMG,
 .Projects,
 .Projects img{
-  transition: all 500ms ease;
+  transition: all 1.5s ease;
+}
+
+.Projects .IMG.appear,
+.Section-1 .Box.appear{
+  opacity: 1;
+  transform: translate(0);
 }
 
 .Home .Section-1 .Text p{

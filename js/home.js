@@ -62,9 +62,9 @@ $('.container-Sec').imagesLoaded( {
       });
       
        gsap.to('.Section-1 .Box',{
-        opacity:1,
-        ease:"none",
-        x:0
+        onStart:()=>{
+          document.querySelector('.Section-1 .Box').classList.add('appear')
+        },
        })
 
     let projects = document.querySelectorAll('.Project')
@@ -75,9 +75,9 @@ $('.container-Sec').imagesLoaded( {
           containerAnimation:scrollTween,
           start: "top bottom",
         },
-        ease:"none",
-        x:0,
-        opacity:1
+        onStart:()=>{
+          proj.querySelector('.IMG').classList.add('appear')
+        },
       })
     })
    
